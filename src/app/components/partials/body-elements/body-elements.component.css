@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    background: #f5f5dc;
+  margin-top: 100px;
+  }
+  
+  h1 {
+    font-size: 90px;
+    color: #444;
+  }
+  
+  p {
+    font-size: 30px;
+    color: #444;
+  }
+  
+  .sec_2 {
+    margin-top: 70px;
+    background-color: whitesmoke;
+ 
+  }
+  
+  .sec_2 .images img {
+    max-width: 400px;
+    margin: 0 30px;
+    transform: translateX(-120%);
+
+  }
+
+  .sec_2.show-animate .images img{
+    transform: translateX(0);
+  }
+  
+ 
+
+  .sec_2.show-animate .animate {
+    opacity: 1;
+    transform: translateX(0);
+    transition: transform 1s ease, opacity 1s ease;
+  }
+  /* Add your existing CSS styles here */
+
+/* Add your existing CSS styles here */
+
+h2 {
+    font-size: 70px;
+    color: #444;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .sec_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align items at the top */
+    align-items: center;
+    padding: 20px; /* Add some padding to the section */
+  }
+  
+  .sec_2 .images {
+    margin-top: 20px; /* Add some space between the title and images */
+  }
+  /* Featured Products Section */
+.featured-products {
+  background-color: #f2e4d9; /* A light beige background color */
+  padding: 60px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: #743f33; /* A deep brown section title color */
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.product {
+  text-align: center;
+  max-width: 320px;
+  padding: 20px;
+  background-color: #f5f5f5; /* A light gray background color */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.product:hover {
+  transform: translateY(-5px); /* Slight upward lift on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly darker box shadow on hover */
+}
+
+.product img {
+  width: 220px;
+  height: 220px;
+  border-radius: 20%;
+  margin: 0 auto 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.product h3 {
+  font-size: 1.5rem;
+  color: #743f33; /* A deep brown product title color */
+  margin-bottom: 10px;
+}
+
+.product p {
+  font-size: 14px;
+  color: #8d8d8d; /* A lighter gray product description color */
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #e0725d; /* A coral CTA button background color */
+  color: #fff; /* White CTA button text color */
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #c1604e; /* Slightly darker coral on hover */
+}

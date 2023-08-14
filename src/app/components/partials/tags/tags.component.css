@@ -1,0 +1,31 @@
+div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div a{
+  padding: 0.3rem 1rem;
+  margin: 0.2rem 0.15rem;
+  border-radius: 10rem;
+  font-weight: 600;
+  color:  #e72929;
+
+}
+a{
+  background-color:#f1f1f1;
+  padding:10rem 10rem;
+  margin: 0.1rem 0.15rem;
+  border-radius: 10rem;
+  font-weight: 600;
+  color:  #e72929;
+
+}
+.tags{
+  position: absolute;
+  z-index: 1;
+  display: none;
+}
+.tags-conatiner:hover .tags{
+display: flex;
+}

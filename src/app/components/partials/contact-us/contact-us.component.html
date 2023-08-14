@@ -1,0 +1,29 @@
+<div class="container" id="Contact_Us">
+    <div class="details">
+     <app-title title="Contact Us"></app-title> 
+     <form [formGroup]="mailForm" (ngSubmit)="submit()" method="POST" >
+      <text-input
+      [control]="fc.name"
+      [showErrorwhen]="isSubmited"
+      label="Name">
+    `</text-input>
+        <text-input
+        [control]="fc.email"
+        [showErrorwhen]="isSubmited "
+        type="email"
+        label="Email"
+        ></text-input> 
+         <text-input
+        [control]="fc.message"
+        [showErrorwhen]="isSubmited "
+        type="textarea"
+        label="Message"
+        ></text-input>  
+    
+
+     <default-button text="Contact Us" ></default-button>
+
+   
+      </form>
+    </div>
+</div>
