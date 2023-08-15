@@ -1,6 +1,8 @@
 [submodule "backend"]
     path = backend
-    url = https://github.com/AlaMdalla/marimex0/tree/backend
+    url = https://github.com/AlaMdalla/marimex0.git
+    branch = backend
 [submodule "frontend"]
     path = frontend
-    url = https://github.com/AlaMdalla/marimex0/tree/frontend
+    url = https://github.com/AlaMdalla/marimex0.git
+    branch = frontend
